@@ -106,7 +106,7 @@ img{
 }
 
 .right{
-	background-color: #E5E7EB;
+	background-color: #f9fafb;
 }
 
 .head{
@@ -142,6 +142,10 @@ tr{
 	padding-bottom: 5%;
 }
 
+table{
+	width: 75%;
+}
+
 label{
 	letter-spacing: 1px;
 	font-size: 0.7rem;
@@ -173,7 +177,7 @@ button{
 }
 
 .create,.login{
-	margin: 1em;
+	margin: 2em;
 }
 
 .login > a{
