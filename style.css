@@ -83,6 +83,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	width: 40%;
 	/* align-items: center; */
 }
 
@@ -102,4 +103,81 @@ img{
 .attribute, .attribute>a{
 	color: white;
 	align-self: center;
+}
+
+.right{
+	background-color: #E5E7EB;
+}
+
+.head{
+	padding-left: 2em;
+	padding-right: 5em;
+	margin-top: 10%;
+	font-weight: bolder;
+	font-size: 1.5rem;
+}
+
+i {
+	font-style: italic;
+  }
+
+form{
+	background-color: white;
+	padding-left: 2rem;
+	box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+}
+
+h3{
+	font-size: 1.7rem;
+}
+
+td{
+	display: flex;
+	flex-direction: column;
+}
+tr{
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	padding-bottom: 5%;
+}
+
+label{
+	letter-spacing: 1px;
+	font-size: 0.7rem;
+	color: rgb(1, 25, 56);
+	padding-bottom: 5px;
+}
+
+input{
+	border-radius: 2px;
+	color: gray;
+	border-width: 0.5px;
+	text-decoration: none;
+}
+
+input:focus{
+	outline-color: blue!important;
+	box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+}
+
+button{
+	background-color:#596D48 ;
+	color: white;
+	padding: 2%;
+	border-radius: 10px;
+	font-weight: bold;
+	box-shadow: none;
+	text-shadow: none;
+	padding: 1em 2em;
+}
+
+.create,.login{
+	margin: 1em;
+}
+
+.login > a{
+	color: #596D48;
+	font-weight: bold;
+	text-decoration: none;
 }
